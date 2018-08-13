@@ -6,7 +6,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     font-family: 'Arial', 'Helvetica Neue', sans-serif;
-    color: #777;
+    color: rgb(52, 52, 52);
 }
 .container {
     width: 100%;
@@ -17,13 +17,26 @@ body {
 h1, h2, h3, p {
     margin-bottom: 20px;
 }
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+#nameText{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    line-height: 120%;
+}
 p:last-child {
     margin-bottom: 0;
 }
 h1, h2, h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
-    color: #4aaaa5;
+    color: #0280e1;
 }
 h1 {
     font-size: 30px;
@@ -34,7 +47,7 @@ h1 {
 h2, h3 {
     font-size: 22px;
 }
-#masthead {
+/* #masthead {
     background: #fff;
     margin: 0 0 30px;
     z-index: 99;
@@ -43,11 +56,11 @@ h2, h3 {
     border-bottom: 2px solid #ccc;
     position: fixed;
     width: 100%;
-}
+} */
 #logo {
     width: 250px;
     height: 90px;
-    background: #4aaaa5;
+    background: #0280e1;
     float: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
@@ -57,7 +70,7 @@ h2, h3 {
     font-size: 30px;
     text-decoration: none;
 }
-nav {
+/* nav {
     float: right;
     margin-top: 25px;
 }
@@ -72,10 +85,16 @@ nav a {
 }
 nav a:first-child {
     border-left: 0 none;
-}
+} */
 /*main*/
 #main-container {
-    padding-top: 130px;
+    padding-top: 30px;
+}
+
+.index-container{
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 2% 0 2% 0;
 }
 .main-container {
     background: #fff;
@@ -92,7 +111,23 @@ nav a:first-child {
     margin-top: 10px;
     float: left;
     margin-right: 25px;
+    
 }
+.lead {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+}
+
+.row {
+    margin: 2% 0 2% 0;
+}
+
+img {
+    margin: 2% 0 2% 0;
+    border-radius: 10px;
+}
+
+
 /*sidebar*/
 .sidebar {
     background: #fff;
@@ -124,7 +159,7 @@ footer {
     color: #fff;
     padding: 30px 0;
     clear: both;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #0280e1;
     color: #ccc;
     font-size: 12px;
     text-align: center;
@@ -148,7 +183,7 @@ footer {
 }
 .work h3 {
     border-bottom: 0;
-    background: #4aaaa5;
+    background: #0280e1;
     color: #fff;
     text-align: center;
     position: absolute;
@@ -189,7 +224,7 @@ textarea {
 
 }
 input[type=submit] {
-    background: #4aaaa5;
+    background: #0280e1;
     border: 0 none;
     color: #fff;
     font-size: 18px;
