@@ -34,8 +34,8 @@ p:last-child {
     margin-bottom: 0;
 }
 h1, h2, h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     color: #0280e1;
 }
 h1 {
